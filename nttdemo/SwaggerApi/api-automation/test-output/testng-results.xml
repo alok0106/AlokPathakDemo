@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-21T04:08:28 CET" name="Default suite" finished-at="2022-03-21T04:08:37 CET" duration-ms="8715">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NTT.test.automation.runner@6283d8b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-03-21T04:08:28 CET" name="Default test" finished-at="2022-03-21T04:08:37 CET" duration-ms="8715">
+      <class name="com.NTT.test.automation.runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.NTT.test.automation.runner@6283d8b8]" started-at="2022-03-21T04:08:28 CET" name="setUpClass" finished-at="2022-03-21T04:08:29 CET" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NTT.test.automation.runner@6283d8b8]" started-at="2022-03-21T04:08:29 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-21T04:08:33 CET" duration-ms="4659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating a new user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[API automaton over Demo Pet Store]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NTT.test.automation.runner@6283d8b8]" started-at="2022-03-21T04:08:33 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-21T04:08:34 CET" duration-ms="711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fetching the details of newly added user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[API automaton over Demo Pet Store]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.NTT.test.automation.runner@6283d8b8]" started-at="2022-03-21T04:08:34 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-21T04:08:36 CET" duration-ms="2295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Fetching all pets with status sold"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[API automaton over Demo Pet Store]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.NTT.test.automation.runner@6283d8b8]" started-at="2022-03-21T04:08:36 CET" name="tearDownClass" finished-at="2022-03-21T04:08:37 CET" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.NTT.test.automation.runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
